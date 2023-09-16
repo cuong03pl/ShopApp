@@ -29,10 +29,13 @@ namespace ShopApp.Areas.Admin.Controllers
         }
 
         // GET: Posts/Details/5
-        //public ActionResult Details(int id)
-        //{
-        //    return View();
-        //}
+        public ActionResult Details(int id)
+        {
+            var post = (from p in _context.posts
+                        where p.Id == id
+                        select p).FirstOrDefault();
+            return View(post);
+        }
 
         // GET: Posts/Create
         public ActionResult Create()

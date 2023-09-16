@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PYVbgBsHzMVyFz3MW0VtIBPxIo5U4kQjlbJmRz8UBSg=",
+  "Hash": "EW3wJkMBn+klbmjYYAQCwS/wypOKdveSp5B8lsTWN+c=",
   "Source": "ShopApp",
   "BasePath": "_content/ShopApp",
   "Mode": "Default",
@@ -1411,6 +1411,23 @@
       "OriginalItemSpec": "wwwroot\\files\\dasdsd_72204876.jpg"
     },
     {
+      "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\ded_49478073.jpg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "files/ded_49478073.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\ded_49478073.jpg"
+    },
+    {
       "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\eqweqw_16744214.jpg",
       "SourceId": "ShopApp",
       "SourceType": "Discovered",
@@ -1613,6 +1630,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\sasaeqwew_34134164.jpg"
+    },
+    {
+      "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\trung-quoc-se-tiep-tuc-mo-cua-thi-truong-cho-hang-hoa-viet-nam_12295250.jpg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "files/trung-quoc-se-tiep-tuc-mo-cua-thi-truong-cho-hang-hoa-viet-nam_12295250.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\trung-quoc-se-tiep-tuc-mo-cua-thi-truong-cho-hang-hoa-viet-nam_12295250.jpg"
     },
     {
       "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\js\\site.js",

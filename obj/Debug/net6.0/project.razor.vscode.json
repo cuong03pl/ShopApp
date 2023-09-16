@@ -23824,6 +23824,11 @@
       "FilePath": "d:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\Areas\\Admin\\Views\\News\\Create.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\News\\Create.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\Areas\\Admin\\Views\\Posts\\Details.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Posts\\Details.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }

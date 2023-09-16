@@ -1,4 +1,4 @@
-@model ShopApp.Models.New
+@model ShopApp.Models.Post
 @using HtmlAgilityPack
 @{
     string text = Model.Description;
@@ -10,7 +10,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <div class="container-fluid">
-            Chi tiết tin tức
+            Chi tiết bài viết
         </div><!-- /.container-fluid -->
     </section>
 
@@ -18,7 +18,7 @@
     <section class="content">
 
         <div>
-            <h4>Category</h4>
+            <h4>Bài viết</h4>
             <hr />
             <dl class="row">
                 <dt class="col-sm-2">
@@ -51,13 +51,6 @@
                 <dd class="col-sm-10">
                     <img src="@Html.DisplayFor(model => model.Image)" alt="Image"
                         style=" max-width: 200px;height: 200px;" />
-                </dd>
-
-                <dt class="col-sm-2">
-                    @Html.DisplayNameFor(model => model.Slug)
-                </dt>
-                <dd class="col-sm-10">
-                    @Html.DisplayFor(model => model.Slug)
                 </dd>
                 <dt class="col-sm-2">
                     @Html.DisplayNameFor(model => model.SeoTitle)
@@ -104,11 +97,11 @@
 
             </dl>
 
-            <a asp-action="Edit" asp-area="Admin" asp-route-id="@Model.Id" asp-controller="News"
+            <a asp-action="Edit" asp-area="Admin" asp-route-id="@Model.Id" asp-controller="Posts"
                 class="btn btn-primary">Sửa</a> |
-            <a asp-action="Delete" asp-area="Admin" asp-route-id="@Model.Id" asp-controller="News"
+            <a asp-action="Delete" asp-area="Admin" asp-route-id="@Model.Id" asp-controller="Posts"
                 class="btn btn-primary">Xóa</a> |
-            <a asp-action="Index" asp-area="Admin" asp-controller="News" class="btn btn-primary">Quay lại trang
+            <a asp-action="Index" asp-area="Admin" asp-controller="Posts" class="btn btn-primary">Quay lại trang
                 danh sách</a>
 
         </div>

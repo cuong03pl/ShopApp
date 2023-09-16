@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DLam7KDMAizrPfLVxoEGJxq4M1LGQqPlt5oESf9+YkmXLIwzPMfhNkNO9xXmzVBgJMZefX/3o8bLVEuE5J1Lyw==",
+  "dgSpecHash": "KTfIoiVHC0YIZnUiz604rOwPTCY3+WR9oJ/wz0BZavr1DGfXQXcNxwa4ysSJrquFlv8ggd7xJI5tntMq4udNVg==",
   "success": true,
-  "projectFilePath": "d:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj",
+  "projectFilePath": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cuong\\.nuget\\packages\\elfinder.net.core\\1.5.0\\elfinder.net.core.1.5.0.nupkg.sha512",
     "C:\\Users\\Cuong\\.nuget\\packages\\elfinder.netcore\\1.3.6\\elfinder.netcore.1.3.6.nupkg.sha512",

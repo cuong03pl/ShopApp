@@ -251,3 +251,4 @@ D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\MimeTypes.dll
 D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\SixLabors.ImageSharp.dll
 D:\projectcode\ShopApp\ShopApp\ShopApp\obj\Debug\net6.0\ShopApp.MvcApplicationPartsAssemblyInfo.cs
 D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\libman.json
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\HtmlAgilityPack.dll

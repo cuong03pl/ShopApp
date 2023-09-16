@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj": {}
+    "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj": {}
   },
   "projects": {
-    "d:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj": {
+    "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj",
+        "projectUniqueName": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj",
         "projectName": "ShopApp",
-        "projectPath": "d:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj",
+        "projectPath": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj",
         "packagesPath": "C:\\Users\\Cuong\\.nuget\\packages\\",
-        "outputPath": "d:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\obj\\",
+        "outputPath": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
