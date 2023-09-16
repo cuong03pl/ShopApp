@@ -69,7 +69,7 @@ namespace ShopApp.Areas.Admin.Controllers
 
         // GET: CategoryController/Edit/5
         [HttpGet]
-        public ActionResult Edit(int id)
+        public ActionResult Edit(int? id)
         {
             if (id == null)
             {
@@ -112,7 +112,7 @@ namespace ShopApp.Areas.Admin.Controllers
         }
 
         // GET: CategoryController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int? id)
         {
 
             if (id == null)
@@ -130,7 +130,7 @@ namespace ShopApp.Areas.Admin.Controllers
         // POST: CategoryController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> DeleteConfirm(int id)
+        public async Task<ActionResult> DeleteConfirm(int? id)
         {
             if (id == null)
             {

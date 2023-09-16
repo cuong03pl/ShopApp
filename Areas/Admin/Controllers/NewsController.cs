@@ -57,8 +57,6 @@ namespace ShopApp.Areas.Admin.Controllers
             {
                 news.Slug = ConvertSlug.GenerateSlug(news.Title);
             }
-            Console.WriteLine(file != null);
-            Console.WriteLine("file " + file);
             if (file != null)
             {
                 // Create a File Info 
@@ -100,14 +98,14 @@ namespace ShopApp.Areas.Admin.Controllers
         }
 
         // GET: NewsController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(int? id)
         {
             var news = (from n in _context.news
                         where n.Id == id
                         select n).FirstOrDefault();
             var cate = (from c in _context.categories
                         select c).ToList();
-            var categoryIds = new SelectList(cate, "Id", "Title", news.CategoryID);
+            var categoryIds = new SelectList(cate, "Id", "Title", news?.CategoryID);
             ViewData["CategoryIds"] = categoryIds;
 
             return View(news);
@@ -126,7 +124,6 @@ namespace ShopApp.Areas.Admin.Controllers
             {
                 newEdit.Slug = ConvertSlug.GenerateSlug(newEdit.Title);
             }
-            Console.WriteLine("a" + file);
             if (file != null)
             {
 
@@ -174,7 +171,7 @@ namespace ShopApp.Areas.Admin.Controllers
         }
 
         // GET: NewsController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int? id)
         {
 
             if (id == null)
@@ -191,7 +188,7 @@ namespace ShopApp.Areas.Admin.Controllers
         // POST: CategoryController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> DeleteConfirm(int id)
+        public async Task<ActionResult> DeleteConfirm(int? id)
         {
             if (id == null)
             {

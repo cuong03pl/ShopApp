@@ -11,13 +11,13 @@ namespace ShopApp.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public string Detail { get; set; }
-        public string Image { get; set; }
+        public string? Image { get; set; }
         public string SeoTitle { get; set; }
         public string SeoDescription { get; set; }
         public string SeoKeywords { get; set; }
         public int CategoryID { get; set; }
 
         [ForeignKey("CategoryID")]
-        public Category category { get; set; }
+        public Category? category { get; set; }
     }
 }

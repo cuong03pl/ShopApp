@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WUg2gjFXHe0QiSv+D0dGzxT/BJ+Jv1GKBkB2t9mh1I7reWomilNLyMQvsYi7R5hknkz48iGTbsClVeSvZSrsdg==",
+  "dgSpecHash": "DLam7KDMAizrPfLVxoEGJxq4M1LGQqPlt5oESf9+YkmXLIwzPMfhNkNO9xXmzVBgJMZefX/3o8bLVEuE5J1Lyw==",
   "success": true,
   "projectFilePath": "d:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\ShopApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cuong\\.nuget\\packages\\elfinder.net.core\\1.5.0\\elfinder.net.core.1.5.0.nupkg.sha512",
     "C:\\Users\\Cuong\\.nuget\\packages\\elfinder.netcore\\1.3.6\\elfinder.netcore.1.3.6.nupkg.sha512",
+    "C:\\Users\\Cuong\\.nuget\\packages\\htmlagilitypack\\1.11.37\\htmlagilitypack.1.11.37.nupkg.sha512",
     "C:\\Users\\Cuong\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Cuong\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Cuong\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
