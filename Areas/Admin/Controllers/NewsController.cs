@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.FileProviders;
+using X.PagedList;
 using ShopApp.Models;
 using ShopApp.Models.Common;
 
@@ -21,10 +22,12 @@ namespace ShopApp.Areas.Admin.Controllers
             _env = env;
             fileProvider = fileprovider;
         }
-        public ActionResult Index()
+        public ActionResult Index(int? page)
         {
             var news = _context.news.ToList();
-            return View(news);
+            int pageSize = 5;
+            int pageNumber = page ?? 1;
+            return View(news.ToPagedList(pageNumber, pageSize));
         }
 
         // GET: NewsController/Details/5

@@ -1,5 +1,11 @@
-﻿@model IEnumerable<ShopApp.Models.New>
+﻿@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<New>
+<link rel="stylesheet" href="~/css/custom-paging.css">
+
 @{
+
+    @using X.PagedList.Mvc
+
     ViewData["Title"] = "Category Index";
 }
 
@@ -38,29 +44,29 @@
 
 
             <table class="table">
-                <thead>
-                    <tr>
-                        <th>
-                            @Html.DisplayNameFor(model => model.Image)
-                        </th>
-                        <th>
-                            @Html.DisplayNameFor(model => model.Title)
-                        </th>
+                @* <thead>
+                <tr>
+                <th>
+                @Html.DisplayNameFor(model => model.Image)
+                </th>
+                <th>
+                @Html.DisplayNameFor(model => model.Title)
+                </th>
 
-                        <th>
-                            @Html.DisplayNameFor(model => model.Detail)
-                        </th>
-                        <th>
-                            @Html.DisplayNameFor(model => model.CategoryID)
-                        </th>
-                        <th>
-                            @Html.DisplayNameFor(model => model.CreatedDate)
-                        </th>
-                        <th>
-                            @Html.DisplayNameFor(model => model.ModifierDate)
-                        </th>
-                    </tr>
-                </thead>
+                <th>
+                @Html.DisplayNameFor(model => model.Detail)
+                </th>
+                <th>
+                @Html.DisplayNameFor(model => model.CategoryID)
+                </th>
+                <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+                </th>
+                <th>
+                @Html.DisplayNameFor(model => model.ModifierDate)
+                </th>
+                </tr>
+                </thead> *@
                 <tbody>
                     @foreach (var item in Model)
                     {
@@ -102,5 +108,8 @@
 
     </section>
     <!-- /.content -->
-</div>
+    <ul class="pagination pagination-sm">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+    </ul>
 
+</div>

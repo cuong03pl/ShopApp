@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ShopApp.bundle.scp.css"
     },
     {
+      "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\css\\custom-paging.css",
+      "PackagePath": "staticwebassets\\css\\custom-paging.css"
+    },
+    {
       "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -325,8 +329,20 @@
       "PackagePath": "staticwebassets\\files\\dasdsd_72204876.jpg"
     },
     {
+      "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\ded_18557594.jpg",
+      "PackagePath": "staticwebassets\\files\\ded_18557594.jpg"
+    },
+    {
+      "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\ded_37748030.jpg",
+      "PackagePath": "staticwebassets\\files\\ded_37748030.jpg"
+    },
+    {
       "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\ded_49478073.jpg",
       "PackagePath": "staticwebassets\\files\\ded_49478073.jpg"
+    },
+    {
+      "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\eqweq_4872079.jpg",
+      "PackagePath": "staticwebassets\\files\\eqweq_4872079.jpg"
     },
     {
       "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\eqweqw_16744214.jpg",
@@ -341,8 +357,24 @@
       "PackagePath": "staticwebassets\\files\\eqweqw_80404687.jpg"
     },
     {
+      "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\eqwewq_61921558.jpg",
+      "PackagePath": "staticwebassets\\files\\eqwewq_61921558.jpg"
+    },
+    {
+      "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\ewew_56309808.png",
+      "PackagePath": "staticwebassets\\files\\ewew_56309808.png"
+    },
+    {
+      "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\ewewe_90772074.jpg",
+      "PackagePath": "staticwebassets\\files\\ewewe_90772074.jpg"
+    },
+    {
       "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\ewewqewqe_4896094.jpg",
       "PackagePath": "staticwebassets\\files\\ewewqewqe_4896094.jpg"
+    },
+    {
+      "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\ewqeeqw_68192544.jpg",
+      "PackagePath": "staticwebassets\\files\\ewqeeqw_68192544.jpg"
     },
     {
       "Id": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\fsdfsdfdsf_36159056.jpg",
