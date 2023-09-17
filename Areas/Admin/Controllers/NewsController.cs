@@ -22,9 +22,14 @@ namespace ShopApp.Areas.Admin.Controllers
             _env = env;
             fileProvider = fileprovider;
         }
-        public ActionResult Index(int? page)
+        public ActionResult Index(int? page, string searchString)
         {
-            var news = _context.news.ToList();
+            var news = from s in _context.news
+                   select s;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                news = news.Where(s => s.Title.Contains(searchString));
+            }
             int pageSize = 5;
             int pageNumber = page ?? 1;
             return View(news.ToPagedList(pageNumber, pageSize));
