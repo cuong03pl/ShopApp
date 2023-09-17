@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using ShopApp.Models;
 using ShopApp.Models.Common;
+using X.PagedList;
 
 namespace ShopApp.Areas.Admin.Controllers
 {
@@ -22,10 +23,17 @@ namespace ShopApp.Areas.Admin.Controllers
             fileProvider = fileprovider;
         }
         // GET: Posts
-        public ActionResult Index()
+        public ActionResult Index(int? page, string? searchString)
         {
-            var posts = _context.posts.ToList();
-            return View(posts);
+            var posts = from p in _context.posts
+                        select p;
+            int pageSize = 5;
+            int pageCurrent = page ?? 1;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                posts = posts.Where(p => p.Title.Contains(searchString));
+            }
+            return View(posts.ToPagedList(pageCurrent, pageSize));
         }
 
         // GET: Posts/Details/5

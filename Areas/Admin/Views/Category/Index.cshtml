@@ -1,5 +1,6 @@
-﻿
-@model IEnumerable<ShopApp.Models.Category>
+﻿@model X.PagedList.IPagedList<Category>
+@using X.PagedList.Mvc.Core
+<link rel="stylesheet" href="~/css/custom-paging.css">
 @{
     ViewData["Title"] = "Category Index";
 }
@@ -32,22 +33,34 @@
                 <h3 class="card-title">Danh sách danh mục</h3>
 
                 <div class="card-tools">
-                    <a asp-action="Create" asp-area="Admin" asp-controller="Category" class="btn btn-primary" >Thêm mới danh mục</a>
+                    <a asp-action="Create" asp-area="Admin" asp-controller="Category" class="btn btn-primary">Thêm mới
+                        danh mục</a>
                 </div>
+                 @using (Html.BeginForm())
+                {
+                    <div class="input-group input-group-sm">
+                        @Html.TextBox("SearchString")
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                }
             </div>
-            
-            
+
+
             <table class="table">
                 <thead>
                     <tr>
                         <th>
-                            @Html.DisplayNameFor(model => model.Title)
+                            @Html.DisplayNameFor(model => model.First().Title)
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.Description)
+                            @Html.DisplayNameFor(model => model.First().Description)
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.Position)
+                            @Html.DisplayNameFor(model => model.First().Position)
                         </th>
                     </tr>
                 </thead>
@@ -76,10 +89,11 @@
 
 
 
-            
-        </div>
 
+        </div>
+        <ul class="pagination pagination-sm">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+        </ul>
     </section>
     <!-- /.content -->
 </div>
-

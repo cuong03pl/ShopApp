@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1ZlCUwao2MAb1+yQjVGcSIvk4yUozk5OY5Z7pPNU4No=",
+  "Hash": "UuXcb9QsGrxD24NwwBJX6Hp4HK0lYGoH2YIy3bfQeFM=",
   "Source": "ShopApp",
   "BasePath": "_content/ShopApp",
   "Mode": "Default",
@@ -1343,6 +1343,23 @@
       "OriginalItemSpec": "wwwroot\\files\\asdads_1779682.jpg"
     },
     {
+      "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\dadas_82725348.jpg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "files/dadas_82725348.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\dadas_82725348.jpg"
+    },
+    {
       "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\dasdas_10417392.jpg",
       "SourceId": "ShopApp",
       "SourceType": "Discovered",
@@ -1479,6 +1496,40 @@
       "OriginalItemSpec": "wwwroot\\files\\ded_49478073.jpg"
     },
     {
+      "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\dsad_95121119.jpg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "files/dsad_95121119.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\dsad_95121119.jpg"
+    },
+    {
+      "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\dsada_12669935.jpg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "files/dsada_12669935.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\dsada_12669935.jpg"
+    },
+    {
       "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\eqweq_4872079.jpg",
       "SourceId": "ShopApp",
       "SourceType": "Discovered",
@@ -1511,6 +1562,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\eqweqw_16744214.jpg"
+    },
+    {
+      "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\eqweqw_34626786.jpg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "files/eqweqw_34626786.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\eqweqw_34626786.jpg"
     },
     {
       "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\eqweqw_37620255.jpg",
@@ -1630,6 +1698,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\ewqeeqw_68192544.jpg"
+    },
+    {
+      "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\faf_49902678.jpg",
+      "SourceId": "ShopApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp",
+      "RelativePath": "files/faf_49902678.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\faf_49902678.jpg"
     },
     {
       "Identity": "D:\\projectcode\\ShopApp\\ShopApp\\ShopApp\\wwwroot\\files\\fsdfsdfdsf_36159056.jpg",
