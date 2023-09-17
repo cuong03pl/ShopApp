@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ShopApp.Models;
 using ShopApp.Models.Common;
+using X.PagedList;
 
 namespace ShopApp.Areas.Admin.Controllers
 {
@@ -17,10 +18,17 @@ namespace ShopApp.Areas.Admin.Controllers
             _context = context;
         }
         // GET: CategoryController
-        public ActionResult Index()
+        public ActionResult Index(int? page, string searchString)
         {
-            var categories = _context.categories.ToList();
-            return View(categories);
+            int pageSize = 5;
+            int pageCurrent = page ?? 1;
+            var categories = from c in _context.categories
+                             select c;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                categories = categories.Where(s => s.Title.Contains(searchString));
+            }
+            return View(categories.ToPagedList(pageCurrent, pageSize));
         }
 
         // GET: CategoryController/Details/5
@@ -45,8 +53,8 @@ namespace ShopApp.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind("Title,Description, Position, SeoTitle, SeoDescription, SeoKeywords, Slug")] Category category)
         {
-           
-            if(category.Slug == null)
+
+            if (category.Slug == null)
             {
                 category.Slug = ConvertSlug.GenerateSlug(category.Title);
             }

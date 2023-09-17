@@ -251,3 +251,13 @@ D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\MimeTypes.dll
 D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\SixLabors.ImageSharp.dll
 D:\projectcode\ShopApp\ShopApp\ShopApp\obj\Debug\net6.0\ShopApp.MvcApplicationPartsAssemblyInfo.cs
 D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\libman.json
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\HtmlAgilityPack.dll
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\PagedList.dll
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\PagedList.Mvc.dll
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\X.PagedList.dll
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\projectcode\ShopApp\ShopApp\ShopApp\bin\Debug\net6.0\X.PagedList.Web.Common.dll

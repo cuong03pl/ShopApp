@@ -9,121 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShopApp
 build_property.RootNamespace = ShopApp
-build_property.ProjectDir = d:\projectcode\ShopApp\ShopApp\ShopApp\
+build_property.ProjectDir = D:\projectcode\ShopApp\ShopApp\ShopApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\projectcode\ShopApp\ShopApp\ShopApp
+build_property.MSBuildProjectDirectory = D:\projectcode\ShopApp\ShopApp\ShopApp
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Category/Create.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Category/Delete.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Category/Details.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Category/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Category/Edit.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Category/Index.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Home/Index.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/News/Create.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/News/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/News/Delete.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/News/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/News/Details.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/News/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/News/Edit.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/News/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/News/Index.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/News/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Posts/Create.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Posts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Posts/Delete.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Posts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Posts/Edit.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Posts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Posts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Posts/Index.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Posts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Shared/Error.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Shared/_PartialSidebar.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Shared/_PartialSidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9QYXJ0aWFsU2lkZWJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Views/Home/Index.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Views/Home/Privacy.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Views/Shared/Error.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Views/_ViewImports.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Views/_ViewStart.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-zrv0x2znn7
 
-[d:/projectcode/ShopApp/ShopApp/ShopApp/Views/Shared/_Layout.cshtml]
+[D:/projectcode/ShopApp/ShopApp/ShopApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jul91j1tq2

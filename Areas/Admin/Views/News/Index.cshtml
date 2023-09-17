@@ -1,5 +1,11 @@
-﻿@model IEnumerable<ShopApp.Models.New>
+﻿@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<New>
+<link rel="stylesheet" href="~/css/custom-paging.css">
+
 @{
+
+    @using X.PagedList.Mvc
+
     ViewData["Title"] = "Category Index";
 }
 
@@ -28,12 +34,27 @@
         <!-- Default box -->
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Danh sách tin tức</h3>
-
-                <div class="card-tools">
-                    <a asp-action="Create" asp-area="Admin" asp-controller="News" class="btn btn-primary">Thêm mới tin
-                        tức</a>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+                    <h3 class="card-title">Danh sách tin tức</h3>
+                    <div class="card-tools">
+                        <a asp-action="Create" asp-area="Admin" asp-controller="News" class="btn btn-primary">Thêm mới
+                            tin
+                            tức</a>
+                    </div>
                 </div>
+                @using (Html.BeginForm())
+                {
+                    <div class="input-group input-group-sm">
+                        @Html.TextBox("SearchString")
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                }
+
+
             </div>
 
 
@@ -41,23 +62,22 @@
                 <thead>
                     <tr>
                         <th>
-                            @Html.DisplayNameFor(model => model.Image)
+                            @Html.DisplayNameFor(model => model.First().Image)
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.Title)
-                        </th>
-
-                        <th>
-                            @Html.DisplayNameFor(model => model.Detail)
+                            @Html.DisplayNameFor(model => model.First().Title)
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.CategoryID)
+                            @Html.DisplayNameFor(model => model.First().Detail)
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.CreatedDate)
+                            @Html.DisplayNameFor(model => model.First().CategoryID)
                         </th>
                         <th>
-                            @Html.DisplayNameFor(model => model.ModifierDate)
+                            @Html.DisplayNameFor(model => model.First().CreatedDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.First().ModifierDate)
                         </th>
                     </tr>
                 </thead>
@@ -102,5 +122,8 @@
 
     </section>
     <!-- /.content -->
-</div>
+    <ul class="pagination pagination-sm">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+    </ul>
 
+</div>
